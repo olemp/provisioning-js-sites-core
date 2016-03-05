@@ -7,7 +7,6 @@
   </pnp:Preferences>
   <pnp:Templates ID="TEMPLATE-CONTAINER">
     <pnp:ProvisioningTemplate Version="1" ID="TEMPLATE">   
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Objects/PropertyBagEntries.xml" />  
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Objects/SiteFields.xml" />  
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Objects/ContentTypes.xml" />  
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Objects/Lists.xml" />
