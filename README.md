@@ -1,7 +1,7 @@
 # Introduction
 This repo contains the resources you need to get started with using github.com/olemp/js-sites-core.
 
-**NB** Solution is not yet integrated with js-sites-core
+**NB!** Solution is not yet integrated with js-sites-core
 
 # How to deploy
 The template.xml is the main file.
