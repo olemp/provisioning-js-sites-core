@@ -39,6 +39,12 @@
                 <JSLink>clienttemplates.js</JSLink>
             </View>
         </pnp:Views>
+        <pnp:DataRows>
+            <pnp:DataRow>
+                <pnp:DataValue FieldName="PnPKey">PnPTemplateListName</pnp:DataValue>
+                <pnp:DataValue FieldName="PnPValue">SiteTemplates</pnp:DataValue>
+            </pnp:DataRow>
+        </pnp:DataRows>
     </pnp:ListInstance>
     <pnp:ListInstance Title="Sites" Url="Lists/Sites" TemplateType="100" RemoveExistingContentTypes="true" Hidden="true">
         <pnp:ContentTypeBindings>
