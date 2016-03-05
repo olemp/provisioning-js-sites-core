@@ -1,0 +1,8 @@
+{
+  "dependencies": {},
+  "devDependencies": {},
+  "ambientDependencies": {
+    "jquery": "github:DefinitelyTyped/DefinitelyTyped/jquery/jquery.d.ts#661fc869669af796c6048483e999dce5732eed72",
+    "sharepoint": "github:DefinitelyTyped/DefinitelyTyped/sharepoint/SharePoint.d.ts#d4c22e84601e2468dcc08e1e1288a0700658f9ce"
+  }
+}

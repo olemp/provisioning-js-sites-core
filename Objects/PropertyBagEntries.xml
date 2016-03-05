@@ -1,0 +1,3 @@
+<pnp:PropertyBagEntries xmlns:pnp="http://schemas.dev.office.com/PnP/2015/12/ProvisioningSchema">  
+  <pnp:PropertyBagEntry Key="pnp-sharepoint-provisioning-core-logfolder" Value="{sitecollection}/SiteAssets" />
+</pnp:PropertyBagEntries>

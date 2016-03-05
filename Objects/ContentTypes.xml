@@ -1,0 +1,22 @@
+<pnp:ContentTypes xmlns:pnp="http://schemas.dev.office.com/PnP/2015/12/ProvisioningSchema">
+    <pnp:ContentType ID="0x01002A5A531C970F451EBBB624BC9252AB7C" Name="PnP Config" Description="" Group="Provisioning Content Types">
+        <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Hidden="true" Required="false" />
+            <pnp:FieldRef ID="6d10ae62-80f4-4171-9130-179ae6eb42a1" Name="PnPKey" />
+            <pnp:FieldRef ID="7fb19928-4508-41f0-97e0-1633d1b4a15d" Name="PnPValue" />
+        </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x010002985AF88E6D4361A0BBA2F2BF875F41" Name="PnP Subsite" Description="" Group="Provisioning Content Types">
+        <pnp:FieldRefs>        
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" />
+            <pnp:FieldRef ID="4bf7ac53-e8c0-45cd-abde-3d6a8c7b599a" Name="PnPURL" Required="true" />
+            <pnp:FieldRef ID="5c6e5562-c856-4e4b-a831-92e7443764c9" Name="PnPInheritPermissions" />
+            <pnp:FieldRef ID="4908385f-562a-4111-a959-caf0335ea675" Name="PnPTemplate" Required="true" />
+        </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x0100454BF9181A0143E3A2DC1225EC3DF0F6" Name="PnP Template" Description="" Group="Provisioning Content Types">
+        <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Hidden="false" Required="true" />
+        </pnp:FieldRefs>
+    </pnp:ContentType>
+ </pnp:ContentTypes>

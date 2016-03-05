@@ -1,0 +1,65 @@
+<pnp:Lists
+    xmlns:pnp="http://schemas.dev.office.com/PnP/2015/12/ProvisioningSchema">
+    <pnp:ListInstance Title="SiteTemplates" Url="SiteTemplates" TemplateType="101" Hidden="true" RemoveExistingContentTypes="true">
+        <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x0100454BF9181A0143E3A2DC1225EC3DF0F6" Default="true" />
+        </pnp:ContentTypeBindings>
+        <pnp:Views RemoveExistingViews="true">
+            <View DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/SiteTemplates/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=40">
+                <Query>
+                    <OrderBy>
+                        <FieldRef Name="ID" />
+                    </OrderBy>
+                </Query>
+                <ViewFields>
+                    <FieldRef Name="FileLeafRef" />
+                    <FieldRef Name="Title" />
+                </ViewFields>
+                <RowLimit Paged="TRUE">30</RowLimit>
+                <JSLink>clienttemplates.js</JSLink>
+            </View>
+        </pnp:Views>
+    </pnp:ListInstance>
+    <pnp:ListInstance Title="ProvisioningSettings" Url="Lists/ProvisioningSettings" TemplateType="100" RemoveExistingContentTypes="true" Hidden="true">
+        <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01002A5A531C970F451EBBB624BC9252AB7C" Default="true" />
+        </pnp:ContentTypeBindings>
+        <pnp:Views RemoveExistingViews="true">
+            <View DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/ProvisioningSettings/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=40">
+                <Query>
+                    <OrderBy>
+                        <FieldRef Name="ID" />
+                    </OrderBy>
+                </Query>
+                <ViewFields>
+                    <FieldRef Name="PnPKey" />
+                    <FieldRef Name="PnPValue" />
+                </ViewFields>
+                <RowLimit Paged="TRUE">30</RowLimit>
+                <JSLink>clienttemplates.js</JSLink>
+            </View>
+        </pnp:Views>
+    </pnp:ListInstance>
+    <pnp:ListInstance Title="Sites" Url="Lists/Sites" TemplateType="100" RemoveExistingContentTypes="true" Hidden="true">
+        <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x010002985AF88E6D4361A0BBA2F2BF875F41" Default="true" />
+        </pnp:ContentTypeBindings>
+        <pnp:Views RemoveExistingViews="true">
+            <View DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/Sites/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=40">
+                <Query>
+                    <OrderBy>
+                        <FieldRef Name="ID" />
+                    </OrderBy>
+                </Query>
+                <ViewFields>
+                    <FieldRef Name="Title" />
+                    <FieldRef Name="PnPURL" />
+                    <FieldRef Name="PnPInheritPermissions" />
+                    <FieldRef Name="PnPTemplate" />
+                </ViewFields>
+                <RowLimit Paged="TRUE">30</RowLimit>
+                <JSLink>clienttemplates.js</JSLink>
+            </View>
+        </pnp:Views>
+    </pnp:ListInstance>
+</pnp:Lists>

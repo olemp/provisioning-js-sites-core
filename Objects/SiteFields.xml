@@ -1,0 +1,42 @@
+<pnp:SiteFields xmlns:pnp="http://schemas.dev.office.com/PnP/2015/12/ProvisioningSchema">
+  <Field
+    ID="{6d10ae62-80f4-4171-9130-179ae6eb42a1}"
+    Name="PnPKey"
+    DisplayName="Key"
+    Type="Text"
+    Group="Provisioning Fields"
+    Description=""
+    SourceID="{793ad56b-b905-482f-99c7-e0ad214f35d2}" />
+ <Field
+    ID="{7fb19928-4508-41f0-97e0-1633d1b4a15d}"
+    Name="PnPValue"
+    DisplayName="Value"
+    Type="Text"
+    Group="Provisioning Fields"
+    Description=""
+    SourceID="{793ad56b-b905-482f-99c7-e0ad214f35d2}" />
+  <Field
+    ID="{4bf7ac53-e8c0-45cd-abde-3d6a8c7b599a}"
+    Name="PnPURL"
+    DisplayName="URL"
+    Type="Text"
+    Group="Provisioning Fields"
+    Description=""
+    SourceID="{793ad56b-b905-482f-99c7-e0ad214f35d2}" />
+    <Field
+    ID="{5c6e5562-c856-4e4b-a831-92e7443764c9}"
+    Name="PnPInheritPermissions"
+    DisplayName="Inherit Permissions"
+    Type="Boolean"
+    Group="Provisioning Fields"
+    Description=""
+    SourceID="{793ad56b-b905-482f-99c7-e0ad214f35d2}" />
+     <Field 
+    ID="{4908385f-562a-4111-a959-caf0335ea675}" 
+    Name="PnPTemplate"
+    Type="Lookup"
+    DisplayName="Template"
+    List="SiteTemplates"
+    ShowField="Title"
+    Group="Provisioning Fields"></Field>
+</pnp:SiteFields>

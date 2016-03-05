@@ -1,0 +1,22 @@
+<pnp:Files xmlns:pnp="http://schemas.dev.office.com/PnP/2015/12/ProvisioningSchema">
+   <pnp:File Folder="SiteAssets/js" Overwrite="true" Src="SiteAssets\js\sites-newform.js" />
+   <pnp:File Folder="SiteAssets/js" Overwrite="true" Src="SiteAssets\js\sites-setup.js" />
+   <pnp:File Folder="SiteAssets/css" Overwrite="false" Src="SiteAssets\css\sites-newform.css" />
+   <pnp:File Folder="SiteAssets/html" Overwrite="false" Src="SiteAssets\html\sites-newform.txt" />
+   <pnp:File Folder="Lists/Sites" Overwrite="false" Src="Forms\NewForm.aspx">
+    <pnp:WebParts>
+      <pnp:WebPart Title="sites.js" Order="2" Zone="Main">
+        <pnp:Contents>
+          <WebPart xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/WebPart/v2">
+            <Title>sites-newform.txt</Title>
+            <FrameType>None</FrameType>
+            <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+            <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+             <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor">../../SiteAssets/html/sites-newform.txt</ContentLink>
+            <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+          </WebPart>
+        </pnp:Contents>
+      </pnp:WebPart>
+    </pnp:WebParts>
+  </pnp:File>
+</pnp:Files>
